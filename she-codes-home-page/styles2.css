@@ -57,9 +57,9 @@ p{
     color: rgb(161, 46, 131);
 }
 
-#img2.column img{
-    min-height: 215px;
-    margin-bottom: -15px;
+.column.img2 img{
+    min-height: 210px;
+    margin-bottom: -10px;
 }
 
 /* class--------------------------------------------------------------------------------------------------------------- */
@@ -80,4 +80,8 @@ p{
     display: inline-block;
     vertical-align:top;
     background-color: white;
+}
+
+.name_color{
+    color: lightgray;
 }
