@@ -23,9 +23,6 @@ header a {
 header img {
     height: 50px;
     margin: 10px;
-}
-
-header img {
     display: inline-block;
 }
 
