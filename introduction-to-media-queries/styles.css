@@ -1,19 +1,19 @@
-* {
+/* * {
     border: 1px solid #3e3e3e;
-    margin: 5px;
-}
+    margin: 0px;
+} */
 
 body {
     background-color: #d8bfd8;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-size: 0px;
 }
 
 div {
-    height: 200px;
+    height: 600px;
 }
 
-#div-1 {
+/* #div-1 {
     background-color: #9370db;
 }
 
@@ -27,6 +27,38 @@ div {
 
 #div-4 {
     background-color: #f5deb3;
+} */
+
+/* @media (min-width: 500px) {
+    div {
+        display: inline-block;
+width: 44%; }
+} */
+
+@media (max-width: 2000px) {
+    #div-1 {
+        display: inline-block;
+        background-color: red;
+        width: 30%; }
+    #div-2 {
+        display: inline-block;
+        background-color: orange;
+        width: calc(70%/5);}
+    #div-3 {
+        display: inline-block;
+        background-color: yellow;
+        width: calc(70%/5); }
+    #div-4 {
+        display: inline-block;
+        background-color: green;
+        width: calc(70%/5); }
+    #div-5 {
+        display: inline-block;
+        background-color: blue;
+        width: calc(70%/5); }
+    #div-6 {
+        display: inline-block;
+        background-color: purple;
+        width: calc(70%/5); }
 }
 
-/*** Your code here ***/
